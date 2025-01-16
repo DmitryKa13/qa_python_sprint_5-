@@ -17,8 +17,8 @@ def driver():
 # Открытие главной страницы Stellar Burgers
 @pytest.fixture
 def open_main_page(driver):
-    driver.get(Data.main_page_url)
-    assert driver.current_url == Data.main_page_url
+    driver.get(Data.MAIN_PAGE_URL)
+    assert driver.current_url == Data.MAIN_PAGE_URL
 
 # Открытие страницы авторизации по кнопке «Войти в аккаунт»
 @pytest.fixture

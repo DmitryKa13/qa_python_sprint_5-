@@ -1,7 +1,7 @@
 class Data:
-    main_page_url = 'https://stellarburgers.nomoreparties.site/'
-    login_page_url = "https://stellarburgers.nomoreparties.site/login"
-    registration_page_url = 'https://stellarburgers.nomoreparties.site/register'
-    profile_page_url = "https://stellarburgers.nomoreparties.site/account/profile"
-    account_login = 'dimaka17_123@yandex.ru'
-    account_password = 'testpass13'
+    MAIN_PAGE_URL = 'https://stellarburgers.nomoreparties.site/'
+    LOGIN_PAGE_URL = "https://stellarburgers.nomoreparties.site/login"
+    REGISTRATION_PAGE_URL = 'https://stellarburgers.nomoreparties.site/register'
+    PROFILE_PAGE_URL = "https://stellarburgers.nomoreparties.site/account/profile"
+    ACCOUNT_LOGIN = 'dimaka17_123@yandex.ru'
+    ACCOUNT_PASSWORD = 'testpass13'

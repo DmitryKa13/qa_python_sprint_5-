@@ -7,7 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 # Выполнение входа по кнопке «Войти в аккаунт» на главной
-def do_login_from_login_page(driver, name = Data.account_login, password = Data.account_password):
+def do_login_from_login_page(driver, name = Data.ACCOUNT_LOGIN, password = Data.ACCOUNT_PASSWORD):
     driver.find_element(*TestLoginLocators.name_field).send_keys(name)
     driver.find_element(*TestLoginLocators.password_field).send_keys(password)
     driver.find_element(*TestLoginLocators.login_button).click()
